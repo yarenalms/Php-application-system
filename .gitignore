@@ -1,0 +1,5 @@
+# Kullanıcıların yüklediği dosyalar repoya girmez
+uploads/*
+!uploads/.htaccess
+
+.DS_Store

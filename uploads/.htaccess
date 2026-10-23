@@ -1,0 +1,5 @@
+# Yüklenen dosyalar asla kod olarak çalıştırılmasın
+<FilesMatch "\.(php|phtml|php[0-9]?|phar|cgi|pl|py|sh)$">
+    Require all denied
+</FilesMatch>
+Options -ExecCGI -Indexes
